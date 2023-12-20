@@ -11,7 +11,7 @@ public class Exercicio04 {
         Scanner sc = new Scanner(System.in);
         
         int numeroFuncionario;
-        double horasTrabalhadas, valorHora;
+        double horasTrabalhadas, valorHora, salarioHoras;
 
         System.out.println("Informe o número do funcionário: ");
         numeroFuncionario = sc.nextInt();
@@ -19,9 +19,9 @@ public class Exercicio04 {
         horasTrabalhadas = sc.nextDouble();
         System.out.println("Informe o valor de horas trabalhadas: ");
         valorHora = sc.nextDouble();
-
-        double salarioHoras = (horasTrabalhadas * valorHora);
-
+        
+        salarioHoras  = horasTrabalhadas * valorHora;
+        
         System.out.println("Número do funcionário = " + numeroFuncionario);
         System.out.printf("Salário do funcionário = " + "R$ %.2f%n", salarioHoras);
 

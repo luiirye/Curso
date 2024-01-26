@@ -8,18 +8,19 @@ public class ExercicioResolvido {
   public static void main(String[] args) {
     
     Locale.setDefault(Locale.US);
-    Scanner sc = new Scanner(System.in);
 
-    double largura = sc.nextDouble();
-    double comprimento = sc.nextDouble();
-    double metroQuadrado = sc.nextDouble();
+      Scanner sc = new Scanner(System.in);
 
-    double area = largura * comprimento;
-    double preco = area * metroQuadrado;
+      double largura = sc.nextDouble();
+      double comprimento = sc.nextDouble();
+      double metroQuadrado = sc.nextDouble();
 
-    System.out.println("Area = " + area);
-    System.out.println("Preço = " + preco);
+      double area = largura * comprimento;
+      double preco = area * metroQuadrado;
 
-    sc.close();
+      System.out.println("Area = " + area);
+      System.out.println("Preço = " + preco);
+
+      sc.close();
     }
 }

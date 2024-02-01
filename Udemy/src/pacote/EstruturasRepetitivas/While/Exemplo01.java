@@ -1,4 +1,4 @@
-package pacote.EstruturasRepetitivas.Exemplos;
+package pacote.EstruturasRepetitivas.While;
 
 import java.util.Scanner;
 

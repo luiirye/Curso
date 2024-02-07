@@ -2,7 +2,7 @@ package pacote.EstruturasRepetitivas.Exercicios;
 
 import java.util.Scanner;
 
-public class Exercicio01 {
+public class ExercicioWhile01 {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);

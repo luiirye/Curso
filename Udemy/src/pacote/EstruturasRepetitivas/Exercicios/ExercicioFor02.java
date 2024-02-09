@@ -7,38 +7,27 @@ public class ExercicioFor02 {
         
         Scanner sc = new Scanner(System.in);
 
-        int N = sc.nextInt();
-            if (N > 0) {
+        int n = sc.nextInt();
+        
+        int in = 0;
+        int out = 0;
+
+        for (int i = 0 ; i<n ; i++) {
                 int x = sc.nextInt();
+                if (x >= 10 && x <= 20) {
+                    in = in + 1;
+                }
+        
+                else {
+                    out = out + 1;
+                }
+                
             }
 
-        sc.close();
-    
-        for (int i = 0 ; i >= 10 && i <= 20;  ) {
+            System.out.println(in + " in");
+            System.out.println(out + " out");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        }
-    
-    
-    
-    
-    
-    
-    
-    
-    }
+            sc.close();
+    }  
 }
+

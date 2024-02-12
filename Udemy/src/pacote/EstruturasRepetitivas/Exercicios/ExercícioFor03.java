@@ -11,43 +11,21 @@ public class ExercícioFor03 {
         Scanner sc = new Scanner(System.in);
     
         int n = sc.nextInt();
-        double media1 = 0;
-        double media2 = 0;
-        double media3 = 0;
-
-        for (int i = 0; i < n ; i++) {
-            double x = sc.nextDouble();
-            double y = sc.nextDouble();
-            double z = sc.nextDouble();
-
-            media1 = (x + 2 + y + 3 + z + 5) / n;  
-
+        double cA = 0;
+        double cB = 0;
+        double cC = 0;
+       
+        for (int i = 0; i < n; i++) {
             
+            cA = sc.nextDouble();
+            cB = sc.nextDouble();
+            cC = sc.nextDouble();
+
+            double media = ((cA * 2.0 + cB * 3.0 + cC *5)/ 10.0);
+           
+            System.out.printf("%.1f%n", media);
         }
         
-        System.out.println(media1);
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
         sc.close();
     }
 }

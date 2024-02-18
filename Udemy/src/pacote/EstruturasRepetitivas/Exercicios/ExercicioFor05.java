@@ -15,9 +15,10 @@ public class ExercicioFor05 {
          
             fatorial = fatorial * i;
            
-            System.out.println(fatorial);
-            
         }
+        
+        System.out.println(fatorial);
+        
         sc.close();
     }
 }
